@@ -25,7 +25,7 @@ Deploy your Java (Spring Boot) web application on an AWS EC2 instance running Ub
    - Set **Tenancy** as `Default`.
    - Click **Create VPC**.
 
-![image alt]()   
+![image alt](Inventory-Management-System-Spring-Boot-main/Screenshot 2025-04-23 204426.png)   
 
 ## 2. Create Subnets
 ### Public Subnet:
