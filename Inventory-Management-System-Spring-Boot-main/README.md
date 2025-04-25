@@ -152,7 +152,7 @@ java -jar target/Inventory-Managemet-System-Spring-Boot-main.jar
 
 ---
 
-## ✅ Your Application is Live!
+## ✅ Application is Live!
 
 Visit:  
 **http://3.108.42.210:8080** 
