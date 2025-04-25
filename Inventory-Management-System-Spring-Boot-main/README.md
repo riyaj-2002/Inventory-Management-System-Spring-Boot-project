@@ -25,7 +25,7 @@ Deploy your Java (Spring Boot) web application on an AWS EC2 instance running Ub
    - Set **Tenancy** as `Default`.
    - Click **Create VPC**.
 
-![image alt](Inventory-Management-System-Spring-Boot-main/Screenshot 2025-04-23 204426.png)   
+![image alt](https://github.com/riyaj-2002/Inventory-Management-System-Spring-Boot-project/blob/259442aa8934f53c449f5f2d36b8aeb72c1369e9/Inventory-Management-System-Spring-Boot-main/Screenshot%202025-04-23%20204426.png)   
 
 ## 2. Create Subnets
 ### Public Subnet:
@@ -42,7 +42,7 @@ Deploy your Java (Spring Boot) web application on an AWS EC2 instance running Ub
    - **CIDR block**: `10.0.0.128/24`
 # Click **Create Subnet**.
 
-![image alt]()
+![image alt](https://github.com/riyaj-2002/Inventory-Management-System-Spring-Boot-project/blob/f42a1364b34b1f0b437a37544a7f05a12d394e56/Inventory-Management-System-Spring-Boot-main/Screenshot%202025-04-23%20204445.png)
 
 ## 3. Create an Internet Gateway (IGW)
 # Set the following for the private subnet:
@@ -50,7 +50,7 @@ Deploy your Java (Spring Boot) web application on an AWS EC2 instance running Ub
 # Attach the IGW:
    - Select the VPC and click **Attach**.
 
-![image alt]()
+![image alt](https://github.com/riyaj-2002/Inventory-Management-System-Spring-Boot-project/blob/f42a1364b34b1f0b437a37544a7f05a12d394e56/Inventory-Management-System-Spring-Boot-main/Screenshot%202025-04-23%20204548.png)
 
 ## 4. Create a Route Table (RT)
 # Set the following:
@@ -58,7 +58,7 @@ Deploy your Java (Spring Boot) web application on an AWS EC2 instance running Ub
   - Add a route: `0.0.0.0/0` → Target: `igw-project`.
   - Associate the Route Table with the Public Subnet and Private Subnet
 
-![image alt]()
+![image alt](https://github.com/riyaj-2002/Inventory-Management-System-Spring-Boot-project/blob/f42a1364b34b1f0b437a37544a7f05a12d394e56/Inventory-Management-System-Spring-Boot-main/Screenshot%202025-04-23%20204525.png)
 
 ---
 
@@ -73,7 +73,7 @@ Deploy your Java (Spring Boot) web application on an AWS EC2 instance running Ub
    - **SECURITY GROUP:** SSH (port 22) , HTTP (port 80) , HTTPS (port 443) ,  
     MySQL  (3306)
 
-![image alt]()
+![image alt](https://github.com/riyaj-2002/Inventory-Management-System-Spring-Boot-project/blob/f42a1364b34b1f0b437a37544a7f05a12d394e56/Inventory-Management-System-Spring-Boot-main/Screenshot%202025-04-25%20165620.png)
 
 ---
 
@@ -97,7 +97,10 @@ javadb.xxxxxxxxxxxx.<ap-south-1>.rds.amazonaws.com:3306
 
 ---
 
-![image alt]()
+![image alt](https://github.com/riyaj-2002/Inventory-Management-System-Spring-Boot-project/blob/f42a1364b34b1f0b437a37544a7f05a12d394e56/Inventory-Management-System-Spring-Boot-main/Screenshot%202025-04-25%20165849.png)
+
+
+![image alt](https://github.com/riyaj-2002/Inventory-Management-System-Spring-Boot-project/blob/f42a1364b34b1f0b437a37544a7f05a12d394e56/Inventory-Management-System-Spring-Boot-main/Screenshot%202025-04-25%20162350.png)
 
 
 ## 🛠️ EC2 Configuration & Project Setup
@@ -156,9 +159,9 @@ Visit:
 
 ---
 
-![image alt]()
+![image alt](https://github.com/riyaj-2002/Inventory-Management-System-Spring-Boot-project/blob/f42a1364b34b1f0b437a37544a7f05a12d394e56/Inventory-Management-System-Spring-Boot-main/Screenshot%202025-04-25%20165551.png)
 
-
+![image alt](https://github.com/riyaj-2002/Inventory-Management-System-Spring-Boot-project/blob/f42a1364b34b1f0b437a37544a7f05a12d394e56/Inventory-Management-System-Spring-Boot-main/Screenshot%202025-04-25%20170013.png)
 
 
 
